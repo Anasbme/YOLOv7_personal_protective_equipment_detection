@@ -1,0 +1,5 @@
+0 Coverall
+1 Face Shield
+2 Gloves
+3 Goggles
+4 Mask

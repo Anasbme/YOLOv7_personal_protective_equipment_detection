@@ -1,0 +1,1 @@
+python train_m.py  --img 640 640 --batch 12 --epochs 300 --cfg cfg/training/yolov7_MPPED.yaml --hyp data/hyp.scratch.custom.yaml  --data data/MPPED_modified_data.yaml --weights  yolov7.pt --name yolo_mpped_modified --workers 0 --device 0 --cache   --patience 30

@@ -1,0 +1,15 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+#train: ./teeth_data/Fold/train.txt 
+#val: ./teeth_data/Fold/valid.txt
+#test: ./coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+train: P:/Medical_Personal_Protective_Equipment_Dataset/yolov7-main/MPPED_modified_data/train.txt
+val:  P:/Medical_Personal_Protective_Equipment_Dataset/yolov7-main/MPPED_modified_data/valid.txt/
+#test: P:/anas_teeth_project/yolov5-master/teeth_data/Fold/images/test/
+
+# number of classes
+nc: 5
+
+# class names
+names: ['Coverall','Face_Shield','Gloves','Goggles','Mask' ]
